@@ -7,52 +7,65 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
-    <img src="icon-logo.png" alt="Alex Handyman Logo" class="logo" />
-    <h1>Your Home Fix Starts Here</h1>
-    <div class="qualities">
-      <div class="quality"><img src="icon-polite.png" alt="Polite" />Polite</div>
-      <div class="quality"><img src="icone-professional.png" alt="Professional" />Professional</div>
-      <div class="quality"><img src="icon-fast.png" alt="Fast" />Fast</div>
+  <header class="hero">
+    <img src="alex-handyman-header.jpg" alt="Alex Handyman Banner" class="hero-image" />
+    <div class="hero-overlay">
+      <img src="icon-logo.png" class="logo" alt="Logo">
+      <h1 class="hero-title">Reliable, Fast & Professional Handyman in Roseville</h1>
+      <div class="qualities">
+        <div class="quality"><img src="icon-polite.png" alt="Polite" /><p>Polite</p></div>
+        <div class="quality"><img src="icone-professional.png" alt="Professional" /><p>Professional</p></div>
+        <div class="quality"><img src="icon-fast.png" alt="Fast" /><p>Fast</p></div>
+      </div>
     </div>
   </header>
 
   <section class="gallery">
-    <h2>Gallery</h2>
+    <h2>Our Projects</h2>
     <div class="carousel">
-      <button class="arrow left"><img src="arrow-left.png" alt="Left" /></button>
+      <button class="arrow left"><img src="arrow-left.png" alt="Previous"></button>
       <div class="carousel-track">
-        <div class="project">
-          <img src="project1.jpg" alt="Air Conditioner services" />
+        <div class="gallery-item">
+          <img src="project1.jpg" alt="Air Conditioner services">
           <div class="caption">Air Conditioner services</div>
         </div>
-        <div class="project">
-          <img src="project2.jpg" alt="Blink Security Smart System installation" />
-          <div class="caption">Security Smart System Installation</div>
+        <div class="gallery-item">
+          <img src="project2.jpg" alt="Blink Security System installation">
+          <div class="caption">Blink Security System installation</div>
         </div>
-        <div class="project">
-          <img src="project3.jpg" alt="Dishwasher installation" />
-          <div class="caption">Dishwasher Installation</div>
+        <div class="gallery-item">
+          <img src="project3.jpg" alt="Dishwasher installation">
+          <div class="caption">Dishwasher installation</div>
         </div>
       </div>
-      <button class="arrow right"><img src="arrow-right.png" alt="Right" /></button>
+      <button class="arrow right"><img src="arrow-right.png" alt="Next"></button>
     </div>
   </section>
 
-  <section class="reviews">
-    <h2>Customer Reviews</h2>
-    <div class="review">
-      <p>"He was very professional, arrived on time, and completed the work quickly. Highly recommend!"</p>
-      <div class="stars">★★★★★</div>
-    </div>
-    <div class="review">
-      <p>"Alex did a great job installing my shelves. Friendly and polite!"</p>
-      <div class="stars">★★★★★</div>
-    </div>
-    <div class="review">
-      <p>"Efficient, professional, and fair pricing. Thank you, Alex!"</p>
-      <div class="stars">★★★★★</div>
+  <section class="tools">
+    <h2>We Use the Best Tools</h2>
+    <div class="tools-icons">
+      <img src="icone-pliers.png" alt="Pliers">
+      <img src="icone-knife.png" alt="Utility Knife">
+      <img src="icone-wrench.png" alt="Wrench">
+      <img src="icone-gear-wheel.png" alt="Gear">
     </div>
   </section>
+
+  <section class="testimonials">
+    <h2>Customer Reviews</h2>
+    <div class="review">
+      <p class="stars">★★★★★</p>
+      <p>Alex was very professional and courteous. He installed our security cameras quickly and explained everything clearly. Highly recommended!</p>
+    </div>
+    <div class="review">
+      <p class="stars">★★★★★</p>
+      <p>Great experience! He assembled my new home gym perfectly and even helped organize the space. Will hire again.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact us via WhatsApp <img src="whatsapp-icon.png" alt="WhatsApp"></p>
+  </footer>
 </body>
 </html>
