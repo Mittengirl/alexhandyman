@@ -3,69 +3,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex Handyman Services</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Handyman Services Alex M</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <img src="alex-handyman-header.jpg" alt="Alex Handyman Banner" class="hero-image" />
-    <div class="hero-overlay">
-      <img src="icon-logo.png" class="logo" alt="Logo">
-      <h1 class="hero-title">Reliable, Fast & Professional Handyman in Roseville</h1>
-      <div class="qualities">
-        <div class="quality"><img src="icon-polite.png" alt="Polite" /><p>Polite</p></div>
-        <div class="quality"><img src="icone-professional.png" alt="Professional" /><p>Professional</p></div>
-        <div class="quality"><img src="icon-fast.png" alt="Fast" /><p>Fast</p></div>
+  <!-- Header -->
+  <header class="hero" style="background-image: url('alex-handyman-header.jpg')">
+    <div class="overlay">
+      <img src="icon-logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Product</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#form">Application</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>HANDYMAN SERVICES</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+      <button class="cta-button">SUBMIT YOUR APPLICATION</button>
+      <div class="icons-row">
+        <div><img src="icon-polite.png" alt="Polite"><p>POLITE</p></div>
+        <div><img src="icone-professional.png" alt="Professional"><p>PROFESSIONAL</p></div>
+        <div><img src="icon-fast.png" alt="Fast"><p>FAST</p></div>
       </div>
     </div>
   </header>
 
-  <section class="gallery">
-    <h2>Our Projects</h2>
-    <div class="carousel">
-      <button class="arrow left"><img src="arrow-left.png" alt="Previous"></button>
-      <div class="carousel-track">
-        <div class="gallery-item">
-          <img src="project1.jpg" alt="Air Conditioner services">
-          <div class="caption">Air Conditioner services</div>
-        </div>
-        <div class="gallery-item">
-          <img src="project2.jpg" alt="Blink Security System installation">
-          <div class="caption">Blink Security System installation</div>
-        </div>
-        <div class="gallery-item">
-          <img src="project3.jpg" alt="Dishwasher installation">
-          <div class="caption">Dishwasher installation</div>
-        </div>
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>OUR SERVICES</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+    <div class="gallery">
+      <button class="arrow left"><img src="arrow-left.png" alt="Left"></button>
+      <div class="gallery-track">
+        <div class="gallery-item"><img src="project1.jpg"><div class="caption">Air Conditioner Services</div></div>
+        <div class="gallery-item"><img src="project2.jpg"><div class="caption">Blink Security Smart System installation</div></div>
+        <div class="gallery-item"><img src="project3.jpg"><div class="caption">Dishwasher Installation</div></div>
+        <div class="gallery-item"><img src="project4.jpg"><div class="caption">Dog Door Installation</div></div>
+        <div class="gallery-item"><img src="project5.jpg"><div class="caption">Galleries Installation</div></div>
+        <div class="gallery-item"><img src="project6.jpg"><div class="caption">GYM Equipment Assembling</div></div>
       </div>
-      <button class="arrow right"><img src="arrow-right.png" alt="Next"></button>
+      <button class="arrow right"><img src="arrow-right.png" alt="Right"></button>
     </div>
   </section>
 
-  <section class="tools">
-    <h2>We Use the Best Tools</h2>
-    <div class="tools-icons">
-      <img src="icone-pliers.png" alt="Pliers">
-      <img src="icone-knife.png" alt="Utility Knife">
-      <img src="icone-wrench.png" alt="Wrench">
-      <img src="icone-gear-wheel.png" alt="Gear">
+  <!-- Reviews -->
+  <section class="reviews" id="reviews">
+    <h2>REVIEWS:</h2>
+    <div class="review-row">
+      <div class="review-block">
+        <img src="project13.jpg" alt="TV wallhanging">
+        <h3>DIANA</h3>
+        <p>Alex did a great job assembling furniture and wall-mounting a TV. He was quick, efficient, and very professional!</p>
+      </div>
+      <div class="review-block">
+        <img src="project11.jpg" alt="Cabinets Painting">
+        <h3>BRIAN</h3>
+        <p>Very professional, on time, and super fast. He painted our kitchen cabinets and everything looks amazing!</p>
+      </div>
+      <div class="review-block">
+        <img src="project8.jpg" alt="Fan Installation">
+        <h3>JULIA</h3>
+        <p>He installed our ceiling fans and lighting fixtures. The result was great and he cleaned everything after himself!</p>
+      </div>
     </div>
   </section>
 
-  <section class="testimonials">
-    <h2>Customer Reviews</h2>
-    <div class="review">
-      <p class="stars">★★★★★</p>
-      <p>Alex was very professional and courteous. He installed our security cameras quickly and explained everything clearly. Highly recommended!</p>
+  <!-- Contact Form -->
+  <section class="contact-form" id="form">
+    <div class="about">
+      <img src="icone-gear-wheel.png" class="gear">
+      <img src="about-me.png" alt="About Me">
+      <p>I will be glad to solve your problem and fix everything that is broken, assemble everything that is not assembled, paint everything that is not painted.</p>
     </div>
-    <div class="review">
-      <p class="stars">★★★★★</p>
-      <p>Great experience! He assembled my new home gym perfectly and even helped organize the space. Will hire again.</p>
-    </div>
+    <form>
+      <input type="text" placeholder="YOUR NAME" required>
+      <input type="tel" placeholder="YOUR PHONE NUMBER" required>
+      <textarea placeholder="DESCRIBE YOUR PROBLEM"></textarea>
+      <button type="submit">SEND</button>
+    </form>
   </section>
 
-  <footer>
-    <p>Contact us via WhatsApp <img src="whatsapp-icon.png" alt="WhatsApp"></p>
+  <!-- Footer -->
+  <footer id="contacts">
+    <div class="footer-contact">
+      <img src="icon-logo.png" alt="Logo">
+      <div>
+        <h2>CONTACTS:</h2>
+        <p><strong>Alex Mulets</strong></p>
+        <p>📞 916 9696 233</p>
+        <p>📧 muletsalex@gmail.com</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Alexey Mulets. Copying of the website is prohibited</p>
   </footer>
 </body>
 </html>
