@@ -3,91 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex M Handyman</title>
+  <title>Alex Handyman Services</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header Section -->
-  <header class="header">
-    <img src="alex-handyman-header.jpg" alt="Header background" class="header-bg" />
-    <div class="header-content">
-      <img src="icon-logo.png" alt="Alex Handyman Logo" class="logo" />
-      <h1>Reliable, Skilled, Affordable</h1>
+  <!-- Header -->
+  <header class="hero">
+    <img src="alex-handyman-header.jpg" alt="Alex Handyman" class="hero-img">
+    <div class="hero-overlay">
+      <img src="icon-logo.png" alt="Logo" class="logo">
+      <h1>Reliable Handyman Services in Roseville, CA</h1>
       <div class="qualities">
-        <div><img src="icon-polite.png" alt="Polite" /> Polite</div>
-        <div><img src="icone-professional.png" alt="Professional" /> Professional</div>
-        <div><img src="icon-fast.png" alt="Fast" /> Fast</div>
+        <div><img src="icon-polite.png" alt="Polite"><span>Polite</span></div>
+        <div><img src="icone-professional.png" alt="Professional"><span>Professional</span></div>
+        <div><img src="icon-fast.png" alt="Fast"><span>Fast</span></div>
       </div>
     </div>
   </header>
 
-  <!-- Tools scattered across -->
-  <div class="decorative-icons">
-    <img src="icone-pliers.png" alt="pliers" />
-    <img src="icone-wrench.png" alt="wrench" />
-    <img src="icone-knife.png" alt="knife" />
-    <img src="icone-gear-wheel.png" alt="gear" />
+  <!-- Tools scattered -->
+  <div class="floating-icons">
+    <img src="icone-pliers.png" class="tool tool1">
+    <img src="icone-knife.png" class="tool tool2">
+    <img src="icone-gear-wheel.png" class="tool tool3">
+    <img src="icone-wrench.png" class="tool tool4">
   </div>
 
-  <!-- Gallery Section -->
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-left">
+      <img src="about-me.png" alt="About Me">
+    </div>
+    <div class="about-right">
+      <h2>About Me</h2>
+      <p>Hi, I'm Alex – your trusted handyman with years of experience. I offer fast, affordable, and professional repair and installation services across Roseville and surrounding areas. From furniture assembly to smart device setups – I’ve got you covered.</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
   <section class="gallery">
-    <h2>Our Work</h2>
-    <div class="carousel">
-      <button class="arrow left"><img src="arrow-left.png" alt="Left" /></button>
-      <div class="carousel-track">
-        <div class="gallery-item"><img src="project1.jpg" alt="AC Services" /><div class="caption">Air Conditioner Services</div></div>
-        <div class="gallery-item"><img src="project2.jpg" alt="Blink System" /><div class="caption">Blink Security Installation</div></div>
-        <div class="gallery-item"><img src="project3.jpg" alt="Dishwasher" /><div class="caption">Dishwasher Installation</div></div>
-        <div class="gallery-item"><img src="project4.jpg" alt="Dog Door" /><div class="caption">Dog Door Installation</div></div>
-        <div class="gallery-item"><img src="project5.jpg" alt="Galleries" /><div class="caption">Gallery Wall Installation</div></div>
-        <div class="gallery-item"><img src="project6.jpg" alt="GYM Equipment" /><div class="caption">Gym Equipment Assembling</div></div>
-        <div class="gallery-item"><img src="project8.jpg" alt="Ceiling Fan" /><div class="caption">Ceiling Fan Installation</div></div>
-        <div class="gallery-item"><img src="project9.jpg" alt="Lights" /><div class="caption">Light Fixtures</div></div>
-        <div class="gallery-item"><img src="project10.jpg" alt="Microwave" /><div class="caption">Microwave Oven Install</div></div>
-        <div class="gallery-item"><img src="project11.jpg" alt="Cabinets" /><div class="caption">Cabinet Painting</div></div>
-        <div class="gallery-item"><img src="project12.jpg" alt="Shelves" /><div class="caption">Shelvings Assembling</div></div>
-        <div class="gallery-item"><img src="project13.jpg" alt="TV" /><div class="caption">TV Wallhanging</div></div>
-        <div class="gallery-item"><img src="project14.jpg" alt="Painting" /><div class="caption">Wall Painting</div></div>
+    <h2>My Work</h2>
+    <div class="gallery-wrapper">
+      <button class="arrow left"><img src="arrow-left.png"></button>
+      <div class="gallery-track">
+        <div class="gallery-item">
+          <img src="project1.jpg" alt="AC Services">
+          <div class="caption">Air Conditioner services</div>
+        </div>
+        <div class="gallery-item">
+          <img src="project2.jpg" alt="Blink System">
+          <div class="caption">Blink Security Smart System</div>
+        </div>
+        <div class="gallery-item">
+          <img src="project3.jpg" alt="Dishwasher">
+          <div class="caption">Dishwasher Installation</div>
+        </div>
       </div>
-      <button class="arrow right"><img src="arrow-right.png" alt="Right" /></button>
+      <button class="arrow right"><img src="arrow-right.png"></button>
     </div>
   </section>
 
-  <!-- Reviews Section -->
+  <!-- Reviews -->
   <section class="reviews">
-    <h2>What Our Clients Say</h2>
+    <h2>Client Reviews</h2>
     <div class="review">
-      <p>“Alex was prompt, professional, and efficient. Will definitely hire again!”</p>
       <div class="stars">★★★★★</div>
+      <p>Alex was quick, polite, and professional. I will definitely call him again!</p>
     </div>
     <div class="review">
-      <p>“Super happy with the work on my shelves and ceiling fan!”</p>
       <div class="stars">★★★★★</div>
+      <p>He did an amazing job assembling my gym equipment. Highly recommend!</p>
     </div>
     <div class="review">
-      <p>“Very reliable and easy to communicate with. 10/10 service.”</p>
       <div class="stars">★★★★★</div>
+      <p>Fast service and very friendly. Alex is the best handyman I’ve worked with.</p>
     </div>
   </section>
 
-  <!-- About Me & Contact Section -->
+  <!-- Contact Form -->
   <section class="contact">
-    <div class="about">
-      <img src="about-me.png" alt="About Alex" />
-      <p>Hello! I'm Alex — your reliable handyman in the Roseville area. I’ve helped hundreds of happy clients with installations, assemblies, repairs, and more. Let’s make your home better together!</p>
-    </div>
-    <form class="contact-form">
-      <h2>Contact Me</h2>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
+    <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
   </section>
-
-  <footer>
-    <a href="https://wa.me"><img src="whatsapp-icon.png" alt="WhatsApp" /></a>
-    <p>&copy; 2025 Alex M Handyman Services</p>
-  </footer>
 </body>
 </html>
